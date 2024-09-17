@@ -107,7 +107,7 @@ const App = () => {
   const toggleDetailModal = (item) => {
     setSelectedItemD(item);
     setIsModalOpen2(!isModalOpen2);
-    setIsDetailModalOpen(!isDetailModalOpen); // Toggle the detailed information modal
+    setIsDetailModalOpen(!isDetailModalOpen); 
   };
   
   const handleReviewClick = (item) => {
@@ -146,7 +146,7 @@ const App = () => {
   // Function to get ingredients list
   const getIngredients = (item) => {
     const ingredients = [];
-    for (let i = 1; i <= 20; i++) { // Assuming a maximum of 20 ingredients
+    for (let i = 1; i <= 20; i++) { 
       const ingredient = item[`strIngredient${i}`];
       const measure = item[`strMeasure${i}`];
       if (ingredient) {
@@ -177,7 +177,6 @@ const App = () => {
     Trukish : 'https://flagsapi.com/TR/flat/64.png',
     Portuguese : 'https://flagsapi.com/PT/flat/64.png',
     Spanish : 'https://flagsapi.com/ES/flat/64.png',
-    // Add more country flags here
   };
   return (
     <div className="min-h-screen">
