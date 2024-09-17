@@ -7,7 +7,7 @@ import Slider from 'react-slick';
 import banner2 from './assets/banner2.png';
 import banner1 from './assets/banner1.png';
 import banner3 from './assets/banner3.png';
-import { FaHamburger , FaWindowClose  } from 'react-icons/fa'; 
+import { FaHamburger , FaWindowClose,FaYoutube  } from 'react-icons/fa'; 
 import { FaQuestion } from "react-icons/fa6";
 
 
@@ -475,7 +475,16 @@ const App = () => {
                 <svg class="w-4 h-4 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
                 </svg>
-            </a> 
+              </a>
+              <h3 className="text-lg font-semibold mt-4">Video link</h3>
+
+              <a href={selectedItemD.strYoutube} class="inline-flex items-center justify-center p-5 my-2 text-base font-medium text-white-500 rounded-lg bg-pink-50 ">
+                <FaYoutube className='mx-2'/>
+                <span class="w-full">Recepie</span>
+                <svg class="w-4 h-4 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                </svg>
+              </a>  
 
             </div>
           </div>
