@@ -1,24 +1,23 @@
 {
   "files": {
-    "main.css": "/tailwind-css-food/static/css/main.ed989875.chunk.css",
-    "main.js": "/tailwind-css-food/static/js/main.c6400e3a.chunk.js",
-    "main.js.map": "/tailwind-css-food/static/js/main.c6400e3a.chunk.js.map",
-    "runtime~main.js": "/tailwind-css-food/static/js/runtime~main.abdeff0f.js",
-    "runtime~main.js.map": "/tailwind-css-food/static/js/runtime~main.abdeff0f.js.map",
-    "static/css/2.7b9725fc.chunk.css": "/tailwind-css-food/static/css/2.7b9725fc.chunk.css",
-    "static/js/2.4c1cad17.chunk.js": "/tailwind-css-food/static/js/2.4c1cad17.chunk.js",
-    "static/js/2.4c1cad17.chunk.js.map": "/tailwind-css-food/static/js/2.4c1cad17.chunk.js.map",
-    "static/js/3.9973b74a.chunk.js": "/tailwind-css-food/static/js/3.9973b74a.chunk.js",
-    "static/js/3.9973b74a.chunk.js.map": "/tailwind-css-food/static/js/3.9973b74a.chunk.js.map",
+    "main.css": "/tailwind-css-food/static/css/main.e590e193.css",
+    "main.js": "/tailwind-css-food/static/js/main.e675c0e2.js",
+    "static/js/453.754de56b.chunk.js": "/tailwind-css-food/static/js/453.754de56b.chunk.js",
+    "static/media/banner3.png": "/tailwind-css-food/static/media/banner3.fb850f9a0e7d2c3d9fd3.png",
+    "static/media/banner1.png": "/tailwind-css-food/static/media/banner1.97d55bcac328887199a1.png",
+    "static/media/banner2.png": "/tailwind-css-food/static/media/banner2.b1e3ddb29eb0f4af6fd4.png",
+    "static/media/foodpanda.png": "/tailwind-css-food/static/media/foodpanda.f7605d6c0ff93795fc6f.png",
+    "static/media/slick.svg": "/tailwind-css-food/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/tailwind-css-food/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/tailwind-css-food/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/tailwind-css-food/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/tailwind-css-food/index.html",
-    "precache-manifest.8dffa9cd560e16b79da4b57f21efadd6.js": "/tailwind-css-food/precache-manifest.8dffa9cd560e16b79da4b57f21efadd6.js",
-    "service-worker.js": "/tailwind-css-food/service-worker.js",
-    "static/css/2.7b9725fc.chunk.css.map": "/tailwind-css-food/static/css/2.7b9725fc.chunk.css.map",
-    "static/css/main.ed989875.chunk.css.map": "/tailwind-css-food/static/css/main.ed989875.chunk.css.map",
-    "static/media/banner1.png": "/tailwind-css-food/static/media/banner1.f9e15fe9.png",
-    "static/media/banner2.png": "/tailwind-css-food/static/media/banner2.723c0b94.png",
-    "static/media/banner3.png": "/tailwind-css-food/static/media/banner3.20f85a21.png",
-    "static/media/foodpanda.png": "/tailwind-css-food/static/media/foodpanda.f6dcdcba.png",
-    "static/media/index.css": "/tailwind-css-food/static/media/slick.f97e3bbf.svg"
-  }
+    "main.e590e193.css.map": "/tailwind-css-food/static/css/main.e590e193.css.map",
+    "main.e675c0e2.js.map": "/tailwind-css-food/static/js/main.e675c0e2.js.map",
+    "453.754de56b.chunk.js.map": "/tailwind-css-food/static/js/453.754de56b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e590e193.css",
+    "static/js/main.e675c0e2.js"
+  ]
 }
