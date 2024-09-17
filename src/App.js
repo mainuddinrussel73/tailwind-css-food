@@ -461,13 +461,22 @@ const App = () => {
               <p className="text-gray-700">{selectedItemD.strInstructions}</p>
               {/* Additional details can be added here */}
               <h3 className="text-lg font-semibold mt-4">Ingredients</h3>
-              <ul className="list-disc list-inside pl-4 text-gray-700">
+              <ul className="list-disc list-inside pl-4 text-gray-700 my-5">
                 {getIngredients(selectedItemD).map((ingredient, index) => (
                   <li key={index} className="mb-1">
                     <strong>{ingredient.ingredient}:</strong> {ingredient.measure}
                   </li>
                 ))}
               </ul>
+              <h3 className="text-lg font-semibold mt-4">Further more...</h3>
+              <a href={selectedItemD.strSource} class="inline-flex items-center justify-center p-5 my-2 text-base font-medium text-white-500 rounded-lg bg-pink-50 ">
+                <FaHamburger className='mx-2'/>
+                <span class="w-full">For more details please visit </span>
+                <svg class="w-4 h-4 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                </svg>
+            </a> 
+
             </div>
           </div>
         </div>
